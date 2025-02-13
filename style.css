@@ -1,0 +1,261 @@
+body {
+    background-position: center;
+    background-color: beige;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, monospace;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff0000;
+    padding-left: 10px;
+}
+
+.container1 {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container2 {
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;  
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.image1 {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.yes-btn, .no-btn {
+    padding: 20px;
+    border-radius: 30px;
+    width: 90px;
+    font-family: sans-serif, monospace;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: beige;
+    color: rgb(0, 0, 0);
+    margin-left: 25px;
+}
+
+.yes-btn:hover {
+    background-color: green;
+    transform: scale(1.1);
+}
+
+.no-btn:hover {
+    background-color: red;
+    transform: scale(1.1);
+}
+.header2{
+    text-align: center;
+    margin-top: 20px auto;
+    padding: 30px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.container3{
+    padding: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+.footer{
+    background-color: beige;
+    padding: 10px;
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff0000;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+.picture-row {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 90px;
+    opacity: 1;
+    animation: fadeInUp 1s forwards;
+    transition-duration: 2.5s;
+    border-radius: 2%;
+    padding: 20px;
+    transition-duration: 2.5s;
+}
+.picbb1 img, .picbb2 img, .picbb3 img{
+    border-radius: 10px;
+    height: 00px;
+    width: 200px;
+    overflow: hidden;
+    margin: auto;
+    transition: transform 0.5s ease;;
+    padding-top: 0px
+}
+
+.picbb1 img:hover{
+    transform: scale(1.1);
+}
+.picbb2 img:hover{
+    transform: scale(1.1);
+}
+.audio {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    text-align: right;
+}
+
+.play {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.no{
+    background-color: beige;
+    padding: 50px;
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.back-btn{
+    padding: 20px;
+    border-radius: 30px;
+    width: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: beige;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    font-size: 20px;
+}
+.back-btn:hover {
+    background-color: purple;
+    transform: scale(1.1);
+    border-radius:40px;
+
+}
+.video-btn{
+    margin: 20px;
+    font-size: 20px;
+    width: 200px
+    
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer-image{
+    text-align: right;
+}
+.video{
+    padding: 20px;
+    border-radius: 30px;
+    width: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: beige;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+.video-btn:hover{
+    background-color: green;
+    transform: scale(1.1);
+    border-radius: 40px;
+    font-size: 20px;
+}
+.video-btn{
+    padding: 20px;
+    border-radius: 30px;
+    width: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: beige;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+}
+.backl{
+    text-decoration: none;
+    color: black;
+    padding-right: 30px;
+    gap: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bg-image{
+    background-image: url('heart-tunnel.gif');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.message{
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    margin: 20px;
+    text-indent: 100px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+.dear{
+    padding-left: 40px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.pasilyo{
+    text-align: right;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
